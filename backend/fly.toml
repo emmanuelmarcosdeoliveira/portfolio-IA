@@ -1,15 +1,12 @@
-# fly.toml app configuration file generated for backend-delicate-glitter-2771 on 2025-03-21T10:56:16-03:00
+# fly.toml app configuration file generated for backend-bold-cloud-3475 on 2025-03-23T14:09:53-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'backend-delicate-glitter-2771'
+app = 'backend-bold-cloud-3475'
 primary_region = 'gru'
 
 [build]
-
-[deploy]
-  release_command = 'npx prisma migrate deploy'
 
 [http_service]
   internal_port = 3000
